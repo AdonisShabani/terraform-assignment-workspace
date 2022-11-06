@@ -1,7 +1,8 @@
 module "IAM-module" {
   source  = "app.terraform.io/devops-training-ick/IAM-module/assigment"
-  version = "1.0.0"
+  version = "1.0.1"
   # insert required variables here
+
   user_name   = "adonis-user"
   policy_name = "adonis-policy"
   policy_document = {
