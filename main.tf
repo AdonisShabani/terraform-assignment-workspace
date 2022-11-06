@@ -10,7 +10,7 @@ module "IAM-module" {
     Statement = [
       {
         Action = [
-          "ec2:*", "iam:GetAccountPasswordPolicy", "elasticloadbalancing:DescribeLoadBalancers"
+          "ec2:*", "iam:*", "elasticloadbalancing:DescribeLoadBalancers"
         ]
         Effect   = "Allow"
         Resource = "*"
