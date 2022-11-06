@@ -1,14 +1,14 @@
-variable "user_name" {
+# variable "user_name" {
 
-}
+# }
 
-variable "policy_name" {
+# variable "policy_name" {
 
-}
+# }
 
-variable "policy_document" {
+# variable "policy_document" {
 
-}
+# }
 
 variable "access_key" {
 
