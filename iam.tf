@@ -4,6 +4,7 @@ module "IAM-module" {
   # insert required variables here
 }
 
+
 user_name   = "adonis-user"
 policy_name = "adonis-policy"
 policy_document = {
